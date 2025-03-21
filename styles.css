@@ -38,3 +38,14 @@ a:active, button:active {
 a + a, button + button, a + button, button + a {
     margin-left: 10px;
 }
+/* Logo container at the bottom */
+.logo-container {
+    margin-top: auto; /* Push logo to the bottom */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 50px; /* Adjust the size of the logo */
+    width: auto;
+}
