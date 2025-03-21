@@ -48,7 +48,7 @@ a + a, button + button, a + button, button + a {
 }
 
 .logo {
-    height: 80px; /* Slightly bigger logo */
+    height: 120px; /* Slightly bigger logo */
     width: auto;
 }
 
