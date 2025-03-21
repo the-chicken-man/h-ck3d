@@ -38,11 +38,18 @@ a:active, button:active {
 a + a, button + button, a + button, button + a {
     margin-left: 10px;
 }
-/* Logo container at the bottom */
+/* Logo container fixed at the bottom */
 .logo-container {
-    margin-top: auto; /* Push logo to the bottom */
+    position: fixed;
+    bottom: 10px; /* Slightly above the bottom edge */
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    padding: 20px 0;
+}
+
+.logo {
+    height: 80px; /* Slightly bigger logo */
+    width: auto;
 }
 
 .logo {
